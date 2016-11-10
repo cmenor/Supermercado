@@ -37,7 +37,7 @@ public class Supermercado {
         for (int i = 0; i < 10; i++) {
             b = new Bebida();
             b.setCodigo("COD");
-            b.setFecha_cad("Lunes");
+            b.setFecha_cad("Martes");
             b.setAzucar(i);
             productos.add(b);
         }
@@ -52,7 +52,7 @@ public class Supermercado {
         for (int i = 0; i < 10; i++) {
             pc = new ProductoCaduca();
             pc.setCodigo("COD");
-            pc.setFecha_cad("Martes");
+            pc.setFecha_cad("Miercoles");
             productos.add(pc);
         }
     }
