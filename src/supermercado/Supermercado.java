@@ -25,7 +25,7 @@ public class Supermercado {
         Empleado e;
         for (int i = 0; i < 10; i++) {
             e = new Empleado();
-            e.setNombre("Jose");
+            e.setNombre("Pedro");
             e.setEdad(i + 80);
             empleados.add(e);
         }
